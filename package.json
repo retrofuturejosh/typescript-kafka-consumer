@@ -1,0 +1,22 @@
+{
+  "name": "example-kafka-typescript-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc"
+  },
+  "author": "Josh Sohn",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@types/node": "^16.11.0",
+    "dotenv": "^10.0.0",
+    "node-rdkafka": "^2.11.0"
+  }
+}
